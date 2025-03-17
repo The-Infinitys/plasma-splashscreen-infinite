@@ -1,0 +1,20 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "theinfinitysinfinity@gmail.com",
+        "Name": "the-infinitys"
+      }
+    ],
+    "Category": "",
+    "Description": "Believe The Infinite!",
+    "Id": "plasma-splashscreen-infinite",
+    "License": "GPLv3",
+    "Name": "plasma-splashscreen-infinite",
+    "Website": "https://github.com/The-Infinitys/plasma-splashscreen-infinite"
+  },
+  "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+  "X-Plasma-APIVersion": "2",
+  "X-Plasma-MainScript": "default"
+}
