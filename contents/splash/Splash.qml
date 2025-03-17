@@ -45,8 +45,8 @@ Image {
             y: parent.height - (parent.height - logo.y) / 2 - height/2
             anchors.horizontalCenter: parent.horizontalCenter
             source: "images/loading.svg"
-            sourceSize.height: units.gridUnit * 2
-            sourceSize.width: units.gridUnit * 2
+            sourceSize.height: units.gridUnit * 4
+            sourceSize.width: units.gridUnit * 4
             RotationAnimator on rotation {
                 id: rotationAnimator
                 from: 0
@@ -62,7 +62,7 @@ Image {
             anchors.horizontalCenter: parent.horizontalCenter
             source: "images/infinite-icon.svg"
             sourceSize.height: units.gridUnit * 1.5
-            sourceSize.width: units.gridUnit * 1.5
+            sourceSize.width: units.gridUnit * 3
         }
     }
 
