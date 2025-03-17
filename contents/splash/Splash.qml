@@ -53,15 +53,6 @@ Image {
                 loops: Animation.Infinite
             }
         }
-        Image {
-            id: Infinite
-            y: parent.height - (parent.height - logo.y) / 2 - height/2
-            anchors.horizontalCenter: parent.horizontalCenter
-            source: "images/infinite-icon.svg"
-            sourceSize.height: units.gridUnit * 1.75
-            sourceSize.width: units.gridUnit * 1.75
-        }
-
     }
 
     OpacityAnimator {
